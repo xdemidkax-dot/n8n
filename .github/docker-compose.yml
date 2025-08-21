@@ -41,3 +41,7 @@ services:
       - 5432:5432
     tmpfs:
       - /var/lib/postgresql/data
+
+generic: {
+  webhookUrl: 'https://n8n-production-2314.up.railway.app',
+},
